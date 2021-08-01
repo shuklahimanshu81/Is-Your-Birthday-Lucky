@@ -1,0 +1,97 @@
+* {
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+label {
+  font-weight: bold;
+}
+
+#headDiv {
+  border: solid red 5px;
+  border-radius: 15px;
+  height: 50%;
+  width: 40%;
+  background-color: rgba(0, 255, 210, 0.5);
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+a {
+  font-weight: bold;
+  font-size: x-large;
+  color: purple;
+}
+
+#gameDiv {
+  border: solid red 5px;
+  height: 50%;
+  width: 40%;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 300px;
+  padding: 30px;
+  background-color: aquamarine;
+  display: block;
+}
+
+#dateInput {
+  height: 6vh;
+  width: 35vh;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem;
+}
+#luckyNumber {
+  margin-top: 0px;
+  height: 6vh;
+  width: 30vh;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0px;
+}
+
+#checkBtn {
+  height: 6vh;
+  width: 15vh;
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border: solid;
+}
+img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+#result {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: red;
+}
+.socialMedia {
+  display: inline;
+  padding: 1rem;
+}
+.links {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0vw 15px;
+}
+.socialMediaDiv {
+  border: solid aqua 10px;
+  border-radius: 15px;
+  margin: auto;
+  width: 45%;
+  margin-top: 5rem;
+}
+p {
+  font-weight: bold;
+}
