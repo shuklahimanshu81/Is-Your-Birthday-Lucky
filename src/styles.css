@@ -14,9 +14,9 @@ label {
   border: solid red 5px;
   border-radius: 15px;
   height: 50%;
-  width: 40%;
   background-color: rgba(0, 255, 210, 0.5);
-  margin: auto;
+  max-width: 500px;
+  margin: 0 auto;
   padding-bottom: 30px;
 }
 
@@ -29,9 +29,9 @@ a {
 #gameDiv {
   border: solid red 5px;
   height: 50%;
-  width: 40%;
+  max-width: 500px;
+  margin: 0 auto;
   border-radius: 15px;
-  margin: auto;
   margin-top: 300px;
   padding: 30px;
   background-color: aquamarine;
@@ -40,7 +40,7 @@ a {
 
 #dateInput {
   height: 6vh;
-  width: 35vh;
+  width: 75%;
   text-align: center;
   font-size: 1rem;
   margin: 1rem;
@@ -48,7 +48,7 @@ a {
 #luckyNumber {
   margin-top: 0px;
   height: 6vh;
-  width: 30vh;
+  width: 75%;
   text-align: center;
   font-size: 1rem;
   padding-top: 0px;
@@ -76,20 +76,23 @@ img {
   font-size: 1.3rem;
   color: red;
 }
+ul {
+  padding: 0;
+}
 .socialMedia {
   display: inline;
-  padding: 1rem;
+  padding: 0 0.4rem;
 }
 .links {
   text-decoration: none;
   font-size: 17px;
-  padding: 0vw 15px;
 }
 .socialMediaDiv {
   border: solid aqua 10px;
   border-radius: 15px;
   margin: auto;
-  width: 45%;
+  max-width: 500px;
+  margin: 0 auto;
   margin-top: 5rem;
 }
 p {

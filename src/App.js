@@ -51,23 +51,20 @@ export default function App() {
       <div id="headDiv">
         <h1> Hey! Welcome </h1>
         <h2> Would you like to know if your birthday is lucky or not </h2>
-        <a href={"#gameDiv"}>
-          {" "}
-          Scroll down to know <span>👇</span>
-        </a>
+        <a href={"#gameDiv"}> Scroll down to know </a>
       </div>
 
       <div id="gameDiv">
         <h4 style={{ backgroundColor: "white", padding: "5px 0px" }}>
           {" "}
-          <bold> Privacy Note!</bold> We are not storing any data.{" "}
+          Privacy Note! We are not storing any data.{" "}
         </h4>
-        <label for="dateInput"> Please Enter Your Birthday: </label>
+        <label htmlFor="dateInput"> Please Enter Your Birthday: </label>
 
         <input id="dateInput" type="date" onChange={onChangeHandler} />
         <br></br>
 
-        <label for="luckyNumber"> Give us your lucky number: </label>
+        <label htmlFor="luckyNumber"> Give us your lucky number: </label>
 
         <input
           onChange={onChangeHandler1}
